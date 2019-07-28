@@ -184,6 +184,7 @@ h3, h2 {
 
 #contact-form li {
   margin-bottom: 10px;
+  list-style: none;
 }
 
 label,
@@ -227,6 +228,11 @@ input[type=submit] {
   #logo {
     margin-left: 50px;
   }
+
+  nav {
+    margin-right: 25px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -245,6 +251,10 @@ input[type=submit] {
 
   ul {
     padding-inline-start: 0px;
+  }
+
+  nav {
+    margin-right: 25px;
   }
 
 }
