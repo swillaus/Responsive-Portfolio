@@ -215,3 +215,28 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* Set up viewport parameters */
+
+@media (max-width: 980px) {
+  .main-section {
+    max-width: 680px;
+    margin-left: 50px;
+  }
+
+  #logo {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    background-color: yellow;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    background-color: red;
+  }
+}
